@@ -1,0 +1,60 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "cmdr:macro-0",
+      "icon": "lucide-circle-dot",
+      "name": "Mithra : Sync",
+      "mode": "any",
+      "color": "#2270ec"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push"
+        }
+      ],
+      "name": "Git Sync",
+      "icon": "star",
+      "startup": false
+    }
+  ],
+  "explorer": [
+    {
+      "id": "cmdr:macro-0",
+      "icon": "lucide-circle-dot",
+      "name": "Mithra : Sync",
+      "mode": "any",
+      "color": "#2270ec"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Open today's daily note",
+      "Open quick switcher"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

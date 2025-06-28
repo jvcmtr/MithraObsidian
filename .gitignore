@@ -1,0 +1,27 @@
+# ___________________________________________________ DEV-SPECIFIC PLUGINS
+#.obsidian/plugins/<plugin-name>
+.obsidian/plugins/obsidian-import-json
+.obsidian/plugins/obsidian-show-hidden-files
+
+
+# ___________________________________________________ SECRET FILES (not shared with between users)
+# Ignore everything inside the secrets/ directory
+secrets/**
+# Ignore any file ending with .secrets.<something>, at any depth
+**/.secrets.*
+# Ignore any file or folder that starts with "_", including "_"
+**/_*
+# Also ignore everything inside folders that start with "_"
+**/_*/**
+
+# ___________________________________________________ SOLVE RECURING SYNC ISSUES
+# should be unique for each device 
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# ___________________________________________________ LARGE FILES
+**/Mithra-Northelm.1 (Politico).jpg
+**/Mithra-Northelm.1Estilizado2.jpg
+**/Mithra-Worldv2.2.jpg
+**/SoulthelmPontaTempestade.png

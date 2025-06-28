@@ -1,0 +1,175 @@
+I want to configure my github repository so that it follows this rules:
+
+Pushes to branch DEV will automaticaly make and complete a pull request QA
+This pull requests should be automatically allowed unless they made changes to the folder Environment/
+
+What if instead of only the environment folder, i want to restrict alterations to only allow a list of folders to be altered? How would my workflow look like? 
+
+# gpt
+
+To achieve this GitHub workflow:
+
+> **"Pushes to branch `DEV` will automatically make and complete a pull request to `QA`, unless the changes include anything in the `Environment/` folder, in which case approval is required."**
+
+You’ll need a combination of **GitHub Actions**, **branch protection rules**, and possibly some scripting.
+
+---
+
+### ✅ Summary of What You Need
+
+1. **GitHub Action** to auto-create and merge a PR from `DEV` → `QA` on each push to `DEV`.
+    
+2. **Branch protection rule on `QA`**:
+    
+    - Require approval **only if** changes touch `Environment/`.
+        
+3. Optional: Use a GitHub App or script to detect file changes and block auto-merge if necessary.
+    
+
+---
+
+### 🛠 Step-by-Step Setup
+
+---
+
+#### **1. Create a GitHub Action (`.github/workflows/dev-to-qa.yml`)**
+
+```yaml
+ name: Auto PR DEV to QA (Folder Restricted)
+
+on:
+  push:
+    branches:
+      - DEV
+
+jobs:
+  check-and-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Get list of changed files
+      id: changes
+      run: |
+        git fetch origin QA
+        CHANGED_FILES=$(git diff --name-only origin/QA HEAD)
+        echo "Changed files:"
+        echo "$CHANGED_FILES"
+
+        echo "$CHANGED_FILES" > changed_files.txt
+
+    - name: Check for disallowed file changes
+      id: validate
+      run: |
+        ALLOWED_PREFIXES=("src/" "docs/" "tests/")
+        DISALLOWED=false
+
+        while IFS= read -r file; do
+          MATCHED=false
+          for prefix in "${ALLOWED_PREFIXES[@]}"; do
+            if [[ "$file" == $prefix* ]]; then
+              MATCHED=true
+              break
+            fi
+          done
+
+          if [ "$MATCHED" = false ]; then
+            echo "Disallowed file: $file"
+            DISALLOWED=true
+          fi
+        done < changed_files.txt
+
+        echo "disallowed=$DISALLOWED" >> $GITHUB_OUTPUT
+
+    - name: Create and auto-merge PR (allowed changes only)
+      if: steps.validate.outputs.disallowed == 'false'
+      uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "DEV"
+        destination_branch: "QA"
+        pr_title: "Auto PR: DEV → QA (Allowed Changes)"
+        pr_body: "Automated PR with changes only in allowed folders."
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        auto_merge: true
+        merge_method: merge
+
+    - name: Create PR requiring manual review (disallowed changes)
+      if: steps.validate.outputs.disallowed == 'true'
+      uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "DEV"
+        destination_branch: "QA"
+        pr_title: "Manual Review Required: DEV → QA"
+        pr_body: "Changes include files outside of allowed folders. Manual review needed."
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        auto_merge: false
+
+```
+
+---
+
+#### **2. Add Branch Protection Rule for `QA`**
+
+Go to:  
+**Repository Settings > Branches > Add Rule**
+
+Set rules for `QA`:
+
+- ✅ Require pull request reviews before merging
+    
+- ✅ Dismiss stale pull request approvals when new commits are pushed
+    
+- ✅ Require status checks to pass before merging
+    
+- ❌ Do **not** enable "Include administrators" (optional)
+    
+
+---
+
+#### **3. [Optional] Advanced: Block auto-merge if `Environment/` changes are present**
+
+You can enhance the action to:
+
+- Create a PR but **not auto-merge** if `Environment/` files are changed.
+    
+- Or label it with `needs-approval` for visibility.
+    
+
+This would look like:
+
+```yaml
+    - name: Create PR without auto-merge
+      if: steps.check_changes.outputs.env_changed == 'true'
+      uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "DEV"
+        destination_branch: "QA"
+        pr_title: "PR Requiring Review: DEV → QA (Environment changes)"
+        pr_body: "Changes include files in Environment/, manual review required"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        auto_merge: false
+```
+
+---
+
+### ✅ Result
+
+- Any push to `DEV` triggers a PR to `QA`.
+    
+- If no changes in `Environment/`, the PR is auto-created and merged.
+    
+- If changes in `Environment/`, the PR is created but requires manual approval.
+    
+
+---
+
+Would you like me to generate this workflow file for you to copy directly?
+
+
+
+
+
+
+
