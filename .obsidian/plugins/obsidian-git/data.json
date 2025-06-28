@@ -20,7 +20,7 @@
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": false,
-  "basePath": "/Mithra",
+  "basePath": "",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
