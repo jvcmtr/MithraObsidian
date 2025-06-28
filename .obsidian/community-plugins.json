@@ -6,5 +6,6 @@
   "obsidian-import-json",
   "obsidian-leaflet-plugin",
   "obsidian-meta-bind-plugin",
-  "metaedit"
+  "metaedit",
+  "obsidian-style-settings"
 ]
