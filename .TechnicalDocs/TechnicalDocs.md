@@ -1,1 +1,0 @@
-Esta pasta tem o proposito de isolar a documentação tecnica do projeto.

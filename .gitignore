@@ -11,7 +11,7 @@
 # Ignore everything inside the secrets/ directory
 secrets/**
 # Ignore any file ending with .secrets.[something], at any depth
-**/.secrets.*
+**/*.secrets.*
 # Ignore any file or folder that starts with "_", including "_"
 **/_*
 # Also ignore everything inside folders that start with "_"

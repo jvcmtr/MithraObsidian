@@ -1,6 +1,9 @@
 ## Dependências
 #### Utils
 - [Git](https://github.com/Vinzent03/obsidian-git) integração com o GIT
+- [Settings Search](https://github.com/javalent/settings-search) Permite que pesquisemos por configurações
+- [Custom-file-extensions](https://github.com/MeepTech/obsidian-custom-file-extensions-plugin) Permite que obsidian exiba outros tipos de arquivo
+- [Show-hidden-files](https://github.com/polyipseity/obsidian-show-hidden-files) Permite que o obsidian mostre arquivos e pastas que ficariam escondidos **(Download direto fo github)**
 
 #### TTRPG
 - [Commander](https://github.com/phibr0/obsidian-commander) permite configurar barras de ação no mobile
