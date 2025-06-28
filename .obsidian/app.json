@@ -2,5 +2,6 @@
   "attachmentFolderPath": "Imagens",
   "defaultViewMode": "preview",
   "livePreview": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "showUnsupportedFiles": true
 }

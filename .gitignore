@@ -1,14 +1,16 @@
+# <configuration>
+# The line above is here so obsidian dont mess up the styling when displaying .gitignore inside it 
+
 # ___________________________________________________ DEV-SPECIFIC PLUGINS and config
-#.obsidian/plugins/<plugin-name>
+# .obsidian/plugins/[plugin-name]
 .obsidian/plugins/obsidian-import-json
 .obsidian/plugins/obsidian-show-hidden-files
 .obsidian.dev/**
 
-
 # ___________________________________________________ SECRET FILES (not shared with between users)
 # Ignore everything inside the secrets/ directory
 secrets/**
-# Ignore any file ending with .secrets.<something>, at any depth
+# Ignore any file ending with .secrets.[something], at any depth
 **/.secrets.*
 # Ignore any file or folder that starts with "_", including "_"
 **/_*
