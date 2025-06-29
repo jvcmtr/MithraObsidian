@@ -15,7 +15,7 @@ Para definir Arquivos ou pastas de infraestrutura, podemos simplesmente fazer co
 Arquivos e pastas que começam com `.` não são exibidos por default no obsidian, então basta usarmos esta nomeclatura.
 
 **Permitindo acesso**
-Em contra partida, podemos habilitar plugins como [Custom-file-extensions](https://github.com/MeepTech/obsidian-custom-file-extensions-plugin) [Show-hidden-files](https://github.com/polyipseity/obsidian-show-hidden-files) que permitem que acessemos estes arquivos/pastas
+Em contra partida, podemos habilitar plugins como [Custom-file-extensions](https://github.com/MeepTech/obsidian-custom-file-extensions-plugin) [Show-hidden-files](https://github.com/polyipseity/obsidian-show-hidden-files) e - [File Explorer ++](https://github.com/kelszo/obsidian-file-explorer-plus)  que permitem que acessemos estes arquivos/pastas
 
 **Acesso do DM :**
 Podemos restringir o acesso dos players a estes plugins designando uma pasta de configuração exclusiva para o dm `.Obsidian.dev`, ou  adicionando estes plugins ao `.gitignore`
