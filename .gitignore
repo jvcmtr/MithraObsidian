@@ -5,6 +5,7 @@
 # .obsidian/plugins/[plugin-name]
 .obsidian/plugins/obsidian-import-json
 .obsidian/plugins/obsidian-show-hidden-files
+.obsidian.dev/**
 
 # ___________________________________________________ SECRET FILES (not shared with between users)
 # Ignore everything inside the secrets/ directory
@@ -21,3 +22,6 @@ secrets/**
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/workspaces.json
+.obsidian.dev/workspace.json
+.obsidian.dev/workspace-mobile.json
+.obsidian.dev/workspaces.json
