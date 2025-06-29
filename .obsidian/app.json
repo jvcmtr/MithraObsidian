@@ -3,5 +3,6 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "propertiesInDocument": "hidden",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null
 }
