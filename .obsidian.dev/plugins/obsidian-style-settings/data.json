@@ -1,4 +1,6 @@
 {
   "ITS@@select": "wotc-beyond",
-  "ITS@@accent-color": false
+  "ITS@@accent-color": false,
+  "ITS@@th@@light": "#7E4141",
+  "ITS@@t-d": false
 }

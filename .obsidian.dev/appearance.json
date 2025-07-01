@@ -1,9 +1,10 @@
 {
-  "accentColor": "#d3ff73",
+  "accentColor": "#b79595",
   "theme": "moonstone",
   "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
     "S - Encoded Icons",
-    "S - Encoded Fonts"
+    "S - Encoded Fonts",
+    "custom_highlight"
   ]
 }

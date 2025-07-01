@@ -1,0 +1,68 @@
+/* .markdown-rendered mark {
+  background-color: #00000000; 
+  color: var(--text-accent) ;     
+} */
+
+/* FIX LIST SPACING ========================================================================================== */
+.markdown-rendered p {
+    margin-block-start: 0.25em !important;
+    margin-block-end: 0.25em !important;
+}
+.markdown-rendered ul, .markdown-rendered ol{
+    margin-block-start: .25em !important;
+    margin-block-end: .25em !important;
+}
+
+
+
+/* ADD BADGE (mark) ========================================================================================== */
+/* class */
+mark {
+  background-color: var(--text-accent) !important; 
+  color: var(--background-primary) !important;     
+  border-radius: 2em !important;                  
+  font-size: 80%;
+  margin: 0.5;           
+  padding: 0.1em 0.5em 0.2em 0.5em   !important;                 
+}
+
+/* ─── Source Mode ─────────────────────────────────────────── */
+/* Source mode doesn't use `.cm-s-obsidian`, only CodeMirror spans */
+mark span.cm-hmd-internal-link {
+    color: var(--text-faint) !important;
+}
+/* In Source Mode, bold text is wrapped in <strong> or styled spans */
+mark span.cm-strong {
+  color: var(--accent1) !important;
+}
+
+/* ─── Live Preview ────────────────────────────────────────── */
+/* All internal links inside .badge */
+mark .cm-s-obsidian span.cm-hmd-internal-link {
+    color: var(--background-primary);
+}
+
+/* Only unresolved links inside .badge */
+mark .cm-s-obsidian span.cm-hmd-internal-link.is-unresolved {
+    color: var(--accent1);
+}
+/* Live Preview also uses .cm-strong for bold */
+mark .cm-s-obsidian span.cm-strong {
+  color: var(--accent1) !important;
+}
+
+/* ─── Reading View ────────────────────────────────────────── */
+/* All internal links inside .badge */
+mark a.internal-link {
+    color: var(--background-primary) !important;
+}
+
+/* Only unresolved links inside .badge */
+mark a.internal-link.is-unresolved {
+    color: var(--accent1) !important;
+}
+/* Reading view uses semantic <strong> and <b> tags */
+mark strong,
+mark b {
+  color: var(--accent1) !important;
+}
