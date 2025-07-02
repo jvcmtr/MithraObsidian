@@ -28,7 +28,7 @@ cssclasses:
 ###### Info
 > [!infobox | right]
 > ####   Armadura Ornada
-> `$= this.image_ref || '![[default_armour2.png | cover small]]' `
+> `$= dv.current().type == "vestes"? '![[vest.png | cover small]]' : dv.current().type == "Leve"? '![[light.png | cover small]]': dv.current().type == "Média"? '![[medium.png | cover small]]' : dv.current().type == "Pesada"? '![[heavy.png | cover small]]' : '![[default_armour.png | cover small]]' `
 > 
 > ###### Resistências
 > | | |
