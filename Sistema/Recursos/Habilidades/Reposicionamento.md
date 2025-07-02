@@ -33,6 +33,8 @@ if(dv.current().type != "Habilidade de Nível"){
 
 Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] ou conduzido. este ataque possui a propriedade de reposicionamento.
 
+![[Sistema Base#Reposicionamento]]
+
 
 #
 > Retirado do modulo: `=this.source`

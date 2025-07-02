@@ -3,7 +3,7 @@
 
 # Things to do
 - [ ] **Modulos**:
-	- [ ] Adicionar `Sistema base` 
+	- [x] Adicionar `Sistema base` 
 	- [ ] Adicionar `Armas avançadas`
 	- [ ] Adicionar `Sistema de magia`
 - [ ] **Wiki**
@@ -14,7 +14,7 @@
 	- [ ] Facções Principais
 - [ ] **Templates** (CSV)
 	- [x] Habilidade
-	- [ ] Arma
+	- [x] Arma
 	- [x] Armaduras
 	- [x] Condições
 	- [x] Raça
