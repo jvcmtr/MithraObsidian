@@ -72,24 +72,24 @@ let r = {
 
 let eq = dt.shield? "Escudo "+w[1] : "Arma "+w[0]
 if(dt.ranged){ eq += " à distancia" }
-else{ eq += s[2] }
 
 tags.push(eq)
 tags.push("Equipamento" + s[2])
 tags.push(r[dt.rarity])
-tags = tags.map(t => "=="+t+"==")
+tags = tags.map(t => "=="+t.trim()+"==")
 dv.el("span", tags.join(" "))
 ```
 
-> ###### Bônus
-> - **Acerto :** +`=this.maneuver_mod` 
-> - **Impacto :** +`=this.weight_mod`
-> - **Dano :** +`=this.damage`
-`$= dv.current().shield || dv.current().habilities.contains("Estabilidade")? "> - **Defesa :** +" + dv.current().desense_mod : ""`
-`$= dv.current().shield || dv.current().habilities.contains("Aparagem")? "> - **Aparo :** +" + dv.current().maneuver_mod : ""`
+> ###### Bônus 
+> **Acerto :** +`=this.maneuver_mod` 
+> **Impacto :** +`=this.weight_mod`
+> **Dano :** +`=this.damage`
+>  `$= dv.current().shield || dv.current().habilities.contains("Aparagem") || dv.current().habilities.contains("Estabilidade")? "_" : ""` `$= dv.current().shield || dv.current().habilities.contains("Estabilidade")? "</br> **Defesa :** +" + dv.current().defense_mod : ""` `$= dv.current().shield || dv.current().habilities.contains("Aparagem")? "</br> **Aparo :** +" + dv.current().maneuver_mod : ""`
+> ---
 > ###### Propriedades
-> - **Alcance :** `$= dv.current().ranged? "Longo" : "Corpo a Corpo" + dv.current().size + dv.current().habilities.contains("Arma Longa")? "+" : ""`
-> - **[[Sistema Base#Classes de Tamanho|Tamanho]] :** `=this.size`
+> **Alcance :** `$= dv.current().ranged? "Longo" : dv.current().size + dv.current().habilities.contains("Arma Longa")? "Corpo a Corpo +" : "Corpo a Corpo"`
+> **[[Sistema Base#Classes de Tamanho|Tamanho]] :** `=this.size`
+> 
 > ```dataviewjs
 > let h = dv.current().habilities
 > 	.split(",")
@@ -99,10 +99,12 @@ dv.el("span", tags.join(" "))
 > 		e.contains("Contra ataque")|| e.contains("Ataque em arco")||
 > 		e.contains("Empunhadura confiável")|| e.contains("Defensivo")||
 > 		e.contains("Disfarçada") || e.contains("Arma Longa") )
-> 	.map(e => "=="+e+"==")
+> 	.map(e => "=="+e.trim()+"==")
 > 	.join(" ")
 > dv.el("span", h)
 > ```
+> `$= false? "" : ""`
+> `$= false? "" : ""`
 
 
 ### Habilidades

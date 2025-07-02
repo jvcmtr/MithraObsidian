@@ -2,20 +2,26 @@
 tags:
   - "#weapon"
   - "#Arsenal_Avançado"
-name: Adaga de Aparagem
+name: "Adaga de Aparagem"
 source: "[[Sistema/Arsenal_Avançado#Armas|Arsenal_Avançado]]"
-size: A
+
+size: "A"
 damage: 0
-damage_type: Cortante
+damage_type: "Cortante"
 maneuver_mod: 1
 weight_mod: 0
 defense_mod: 0
-shield: true
-ranged: false
+
+shield: FALSE
+ranged: FALSE
 rarity: Advanced
-habilities: Combate com duas armas
-habilities_ref:
+
+habilities: "Aparagem, Combate com duas armas"
+habilities_ref: 
+  - "[[Recursos/Habilidades/Aparagem#Aparagem|Aparagem]]"
   - "[[Recursos/Habilidades/Combate com duas armas#Combate com duas armas|Combate com duas armas]]"
+
+
 cssclasses:
   - paper
 ---
@@ -71,7 +77,7 @@ if(dt.ranged){ eq += " à distancia" }
 tags.push(eq)
 tags.push("Equipamento" + s[2])
 tags.push(r[dt.rarity])
-tags = tags.map(t => "=="+t+"==")
+tags = tags.map(t => "=="+t.trim()+"==")
 dv.el("span", tags.join(" "))
 ```
 
@@ -79,9 +85,7 @@ dv.el("span", tags.join(" "))
 > **Acerto :** +`=this.maneuver_mod` 
 > **Impacto :** +`=this.weight_mod`
 > **Dano :** +`=this.damage`
->  _
-> `$= dv.current().shield || dv.current().habilities.contains("Estabilidade")? "**Defesa :** +" + dv.current().defense_mod : ""` 
-> `$= dv.current().shield || dv.current().habilities.contains("Aparagem")? "**Aparo :** +" + dv.current().maneuver_mod : ""`
+>  `$= dv.current().shield || dv.current().habilities.contains("Aparagem") || dv.current().habilities.contains("Estabilidade")? "_" : ""` `$= dv.current().shield || dv.current().habilities.contains("Estabilidade")? "</br> **Defesa :** +" + dv.current().defense_mod : ""` `$= dv.current().shield || dv.current().habilities.contains("Aparagem")? "</br> **Aparo :** +" + dv.current().maneuver_mod : ""`
 > ---
 > ###### Propriedades
 > **Alcance :** `$= dv.current().ranged? "Longo" : dv.current().size + dv.current().habilities.contains("Arma Longa")? "Corpo a Corpo +" : "Corpo a Corpo"`
@@ -100,6 +104,8 @@ dv.el("span", tags.join(" "))
 > 	.join(" ")
 > dv.el("span", h)
 > ```
+> `$= false? "" : ""`
+> `$= false? "" : ""`
 
 
 ### Habilidades
