@@ -3,7 +3,9 @@ tags:
   - "#armour"
   - "#Arsenal_Avançado"
 name: "Colete de Couro"
-source: "Arsenal_Avançado"
+source: "[[Sistema/Arsenal_Avançado#Armaduras|Arsenal_Avançado]]"
+image_ref: ""
+
 size: "C"
 type: "Leve"
 dodge_bonus: -1 
@@ -15,7 +17,7 @@ pockets: 4
 habilities: ""
 habilities_ref:  
 desc: ""
-image_ref: ""
+
 cssclasses:
   - paper
 ---
@@ -28,8 +30,8 @@ cssclasses:
 > | | |
 > | ---- |  --- |
 > | **Cortante** | `=this.resistances.Cortante`|
-> | **Perfurante** | `=this.this.resistances.Perfurante` |
-> | **Impacto** | `=this.this.resistances.Impacto` |
+> | **Perfurante** | `=this.resistances.Perfurante` |
+> | **Impacto** | `=this.resistances.Impacto` |
 >
 > 
 > ##### Habilidades
@@ -49,7 +51,7 @@ cssclasses:
 
 # Colete de Couro
 
-==[[Sistema Base#Classes de Tamanho|Equipamento classe]] `=this.size`== ==Armadura (`=this.type`)==
+==[[Sistema Base#Classes de Tamanho|Tamanho]] `=this.size`== ==Armadura (`=this.type`)== ==Resistência `$=dv.current().resistances.Cortante + dv.current().resistances.Perfurante + dv.current().resistances.Impacto`==
 > **Bolsos :**   `=this.pockets` 
 > **Bonus de esquiva :**  `=this.dodge_bonus`
 > **Resistências :** `$= Object.entries(dv.current().resistances).map( i => i[1]!=0? "\n - "+i[0]+": "+i[1] : "" ).join("")`
@@ -63,6 +65,5 @@ for (let ref of dv.current().habilities_ref) {
 }
 ```
 
----
-
+#
 > Retirado do modulo: [[Sistema/Arsenal_Avançado#Armaduras|Arsenal_Avançado]]

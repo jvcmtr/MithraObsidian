@@ -2,14 +2,16 @@
 tags:
   - "#hability"
   - "#Arsenal_Avançado"
-name: Disfarçada
+name: "Disfarçada"
 source: "[[Sistema/Arsenal_Avançado#Habilidades|Arsenal_Avançado]]"
 image_ref: ""
-type: Habilidade de Equipamento
+
+type: "Habilidade de Equipamento"
 action: "-"
-passive: true
+passive: TRUE
 requirements: ""
-requirements_ref: 
+requirements_ref:  
+
 cssclasses:
   - paper
 ---
