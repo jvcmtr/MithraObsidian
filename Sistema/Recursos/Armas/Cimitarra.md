@@ -28,7 +28,7 @@ cssclasses:
 ###### Info
 > [!infobox | right]
 > ####   Cimitarra
-> `$= this.image_ref || '![[default_weaponB.png | cover small]]' `
+> `$= dv.current().shield? "![[shield.png | cover small]]" : "![[weapon.png | cover small]]"  `
 >
 > ##### Propriedades 
 > | | |
