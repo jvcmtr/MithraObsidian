@@ -15,7 +15,7 @@ maxZoom: 0
 defaultZoom: -2.65
 zoomDelta: 0.5
 unit: ""
-markerFolder: Recursos/map_locations/Tor/
+markerFolder: Campanha/Locais/map_locations/Tor/
 #noUI: true
 scale: 1
 darkMode: false

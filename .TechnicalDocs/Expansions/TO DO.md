@@ -1,3 +1,6 @@
+# known issues
+- [ ] custom highlight not apearing on mobile
+
 # Things to do
 - [ ] **Modulos**:
 	- [ ] Adicionar `Sistema base` 
@@ -10,10 +13,12 @@
 	- [ ] Timeline
 	- [ ] Facções Principais
 - [ ] **Templates** (CSV)
-	- [ ] Habilidade
+	- [x] Habilidade
 	- [ ] Arma
-	- [ ] Raça
-	- [ ] Ações
+	- [x] Armaduras
+	- [x] Condições
+	- [x] Raça
+	- [x] Ações
 - [ ] **UI**
 	- [ ] Inicio
 	- [ ] Personagem
