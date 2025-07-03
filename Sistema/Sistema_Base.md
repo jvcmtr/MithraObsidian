@@ -482,7 +482,7 @@ for (let ref of pages) {
 
 ---
 
-# Combate
+# 4. Combate
 
 # Iniciativa e turnos
 #### Iniciativa
