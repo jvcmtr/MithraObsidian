@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Trocar Golpes
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você tenta **resistir** a um ataque, você pode escolher falhar propositalmente no **teste**. Quando faz isso, você pode realizar um [[Sistema/Sistema Base#Ataque Basico|Ataque Basico]] contra o inimigo, ele possui **desvantagem** em defender, **aparar** ou **esquivar** do seu ataque.
+Quando você tenta **resistir** a um ataque, você pode escolher falhar propositalmente no **teste**. Quando faz isso, você pode realizar um [[Sistema_Base#Ataque Basico|Ataque Basico]] contra o inimigo, ele possui **desvantagem** em defender, **aparar** ou **esquivar** do seu ataque.
 
 
 #

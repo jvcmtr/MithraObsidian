@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Grande Porte
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode ignorar a propriedade [[Sistema/Recursos/Habilidades/Pesado|Pesada]] de armaduras. Além disso, você possui **vantagem** em **testes** de **força** para evitar ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]], [[Sistema/Sistema Base#Empurrão|Empurrado]] ou ficar [[Sistema/Recursos/Condições/Sobrecarregado#Sobrecarregado|Sobrecarregado]].
+Você pode ignorar a propriedade [[Sistema/Recursos/Habilidades/Pesado|Pesada]] de armaduras. Além disso, você possui **vantagem** em **testes** de **força** para evitar ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]], [[Sistema_Base#Empurrão|Empurrado]] ou ficar [[Sistema/Recursos/Condições/Sobrecarregado#Sobrecarregado|Sobrecarregado]].
 
 
 #

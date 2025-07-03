@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Investida
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você se move em linha reta em uma direção, você pode realizar um [[Sistema/Sistema Base#Ataque Conduzido|Ataque Conduzido]] contra as criaturas em seu caminho
+Quando você se move em linha reta em uma direção, você pode realizar um [[Sistema_Base#Ataque Conduzido|Ataque Conduzido]] contra as criaturas em seu caminho
 
 
 #

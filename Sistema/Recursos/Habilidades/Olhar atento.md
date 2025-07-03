@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Olhar atento
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode realizar [[Sistema/Sistema Base#Ataques de oportunidade|Ataques de oportunidade]] com armas a distância. Quando faz isso, o seu medidor de atenção diminui em **1**.
+Você pode realizar [[Sistema_Base#Ataques de oportunidade|Ataques de oportunidade]] com armas a distância. Quando faz isso, o seu medidor de atenção diminui em **1**.
 
 
 #

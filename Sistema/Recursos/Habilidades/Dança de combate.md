@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Dança de combate
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] corpo a corpo contra o oponente. a cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar **+1** ao seu bônus de **acerto** com este ataque, até um máximo de +3. se você utilizar qualquer outra ação que não essa, o seu bônus retorna a 0.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] corpo a corpo contra o oponente. a cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar **+1** ao seu bônus de **acerto** com este ataque, até um máximo de +3. se você utilizar qualquer outra ação que não essa, o seu bônus retorna a 0.
 
 
 #

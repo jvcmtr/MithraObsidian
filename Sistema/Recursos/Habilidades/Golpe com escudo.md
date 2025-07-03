@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Golpe com escudo
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você **defende** um ataque inimigo com um **escudo**, caso seja bem sucedido, você pode fazer um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] contra o inimigo usando este escudo. Caso acerte, você pode escolher [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derruba-lo]] ou 
+Você **defende** um ataque inimigo com um **escudo**, caso seja bem sucedido, você pode fazer um [[Sistema_Base#Ataque Simples|Ataque Simples]] contra o inimigo usando este escudo. Caso acerte, você pode escolher [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derruba-lo]] ou 
 [[Sistema/Recursos/Condições/Desorientado#Desorientado|Desorienta-lo]].
 
 

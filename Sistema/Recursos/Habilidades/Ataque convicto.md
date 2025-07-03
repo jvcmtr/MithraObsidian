@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Ataque convicto
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] corpo a corpoe recebe **desvantagem** em **acerto**, quando faz isso, você pode somar o seu modificador de **convicção** para calcular o **impacto** do seu ataque. além disso, o seu **dano** aumenta em **2**.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] corpo a corpoe recebe **desvantagem** em **acerto**, quando faz isso, você pode somar o seu modificador de **convicção** para calcular o **impacto** do seu ataque. além disso, o seu **dano** aumenta em **2**.
 
 
 #

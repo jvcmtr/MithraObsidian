@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Levantamento de peso
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode carregar itens cuja soma dos modificadores de carga não superem 6 sem ficar [[Sistema/Recursos/Condições/Sobrecarregado#Sobrecarregado|Sobrecarregado]]. Isto é, até dois itens de [[Sistema/Sistema Base#Classes de Tamanho|Classe]] **C** ou um item de [[Sistema/Sistema Base#Classes de Tamanho|Classe]] **E**
+Você pode carregar itens cuja soma dos modificadores de carga não superem 6 sem ficar [[Sistema/Recursos/Condições/Sobrecarregado#Sobrecarregado|Sobrecarregado]]. Isto é, até dois itens de [[Sistema_Base#Classes de Tamanho|Classe]] **C** ou um item de [[Sistema_Base#Classes de Tamanho|Classe]] **E**
 
 
 #

@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Sequência furiosa
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] corpo a corpo contra o oponente. a cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar **+1** ao seu bônus de **dano** e **impacto** com este ataque, até um máximo de +3. se você utilizar qualquer outra ação que não essa ou o inimigo não escolher executar uma defesa, você perde este bônus.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] corpo a corpo contra o oponente. a cada vez que você utilizar esta ação novamente contra o mesmo inimigo, você pode adicionar **+1** ao seu bônus de **dano** e **impacto** com este ataque, até um máximo de +3. se você utilizar qualquer outra ação que não essa ou o inimigo não escolher executar uma defesa, você perde este bônus.
 
 
 #

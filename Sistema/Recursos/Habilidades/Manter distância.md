@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Manter distância
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode realizar um  [[Sistema/Sistema Base#Ataques de oportunidade|Ataque de oportunidade]] contra um inimigo que entra em seu alcance. Você não pode usar esta habilidade se estiver [[Sistema/Recursos/Condições/Desorientado#Desorientado|Desorientado]].
+Você pode realizar um  [[Sistema_Base#Ataques de oportunidade|Ataque de oportunidade]] contra um inimigo que entra em seu alcance. Você não pode usar esta habilidade se estiver [[Sistema/Recursos/Condições/Desorientado#Desorientado|Desorientado]].
 
 
 #

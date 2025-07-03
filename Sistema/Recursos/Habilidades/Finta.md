@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Finta
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] corpo a corpo contra um inimigo que consiga te ver. quando o inimigo escolhe como irá reagir, você pode tentar ser vitorioso em um **teste** de **inteligência** contra o inimigo, se for bem sucedido, você pode obrigar o inimigo a mudar a ação defensiva ou habilidade defensiva que escolheu. você não pode utilizar esta habilidade em dois turnos consecutivos.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] corpo a corpo contra um inimigo que consiga te ver. quando o inimigo escolhe como irá reagir, você pode tentar ser vitorioso em um **teste** de **inteligência** contra o inimigo, se for bem sucedido, você pode obrigar o inimigo a mudar a ação defensiva ou habilidade defensiva que escolheu. você não pode utilizar esta habilidade em dois turnos consecutivos.
 
 
 #

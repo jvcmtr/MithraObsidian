@@ -31,9 +31,9 @@ if(dv.current().type != "Habilidade de Nível"){
 # Reposicionamento
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] ou conduzido. este ataque possui a propriedade de reposicionamento.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] ou conduzido. este ataque possui a propriedade de reposicionamento.
 
-![[Sistema Base#Reposicionamento]]
+![[Sistema_Base#Reposicionamento]]
 
 
 #

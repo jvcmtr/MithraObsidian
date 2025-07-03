@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Imobilizador
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Enquanto você está [[Sistema/Sistema Base#Agarrão|Agarrando]] um inimigo, você pode escolher imobilizá-lo, quando faz isso, todos os seus ataques acertam automaticamente o alvo imobilizado, mas você é automaticamente acertado por todos os ataques, com exceção dos ataques feitos pela criatura imobilizada.
+Enquanto você está [[Sistema_Base#Agarrão|Agarrando]] um inimigo, você pode escolher imobilizá-lo, quando faz isso, todos os seus ataques acertam automaticamente o alvo imobilizado, mas você é automaticamente acertado por todos os ataques, com exceção dos ataques feitos pela criatura imobilizada.
 
 
 #

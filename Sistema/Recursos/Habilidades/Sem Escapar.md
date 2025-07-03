@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Sem Escapar
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando um inimigo é bem sucedido em se **esquivar** de um ataque seu, você pode realizar um segundo [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]], o inimigo possui **desvantagem** em se **esquivar** deste segundo ataque. Além disso, você pode atacar um inimigo sempre que ele tentar se afastar de você.
+Quando um inimigo é bem sucedido em se **esquivar** de um ataque seu, você pode realizar um segundo [[Sistema_Base#Ataque Simples|Ataque Simples]], o inimigo possui **desvantagem** em se **esquivar** deste segundo ataque. Além disso, você pode atacar um inimigo sempre que ele tentar se afastar de você.
 
 
 #

@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Contra ataque
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você é bem sucedido em se **esquivar**, **defender** ou **aparar** um ataque, você pode realizar um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] básico contra o inimigo e ele não pode se **defender** usando a mesma arma que usou para atacar. uma vez que você use esta habilidade, você não pode mais usá-la até o início de seu próximo turno.
+Quando você é bem sucedido em se **esquivar**, **defender** ou **aparar** um ataque, você pode realizar um [[Sistema_Base#Ataque Simples|Ataque Simples]] básico contra o inimigo e ele não pode se **defender** usando a mesma arma que usou para atacar. uma vez que você use esta habilidade, você não pode mais usá-la até o início de seu próximo turno.
 
 
 #

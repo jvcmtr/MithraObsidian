@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Ataque em arco
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode realizar um [[Sistema/Sistema Base#Ataque Conduzido|Ataque Conduzido]] contra até 3 criaturas no alcance da sua arma.
+Você pode realizar um [[Sistema_Base#Ataque Conduzido|Ataque Conduzido]] contra até 3 criaturas no alcance da sua arma.
 
 
 #

@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Sequência
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza dois [[Sistema/Sistema Base#Ataque Simples|Ataques Simples]] contra um inimigo dentro do alcance.
+Você realiza dois [[Sistema_Base#Ataque Simples|Ataques Simples]] contra um inimigo dentro do alcance.
 
 
 #

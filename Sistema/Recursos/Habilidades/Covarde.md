@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Covarde
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-O **dano** do seu ataque aumenta em **+1** quando você acerta um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] contra um inimigo que possui **desvantagem** em se proteger do seu ataque. 
+O **dano** do seu ataque aumenta em **+1** quando você acerta um [[Sistema_Base#Ataque Simples|Ataque Simples]] contra um inimigo que possui **desvantagem** em se proteger do seu ataque. 
 
 
 #

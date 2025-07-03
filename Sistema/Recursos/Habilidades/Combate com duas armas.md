@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Combate com duas armas
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você usa esta habilidade, você pode realizar um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] adicional antes do final do seu turno com uma arma que ainda não usou neste turno.
+Quando você usa esta habilidade, você pode realizar um [[Sistema_Base#Ataque Simples|Ataque Simples]] adicional antes do final do seu turno com uma arma que ainda não usou neste turno.
 
 
 #

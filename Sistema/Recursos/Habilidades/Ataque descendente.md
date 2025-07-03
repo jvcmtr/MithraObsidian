@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Ataque descendente
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] corpo a corpo com esta arma e recebe **desvantagem** em **acerto**, se o inimigo for acertado, ele fica [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]]. este ataque recebe mais **1** de **dano** se a criatura estiver caída.
+Você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] corpo a corpo com esta arma e recebe **desvantagem** em **acerto**, se o inimigo for acertado, ele fica [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]]. este ataque recebe mais **1** de **dano** se a criatura estiver caída.
 
 
 #

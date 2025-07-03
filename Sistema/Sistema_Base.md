@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#module"
 ---
 ---
 
@@ -271,7 +273,7 @@ Para facilitar a contagem de itens consumíveis, à critério da mesa, o jogador
 
 Armas são equipamentos essenciais para um aventureiro e permitem que eles melhorem as suas capacidades durante um combate. Cada arma é caracterizada por um conjunto de bônus e atributos que são inerentes à arma. A tabela **Armas Comuns** abaixo mostra quais atributos cada arma possui. Cada atributo mostrado na tabela pode ser interpretado de uma maneira: 
 
-- A coluna **Classe de Tamanho** é utilizada para determinar as armas que você pode segurar, seguindo as regras descritas em [[Sistema Base#Classes de Tamanho|Classes de Tamanho]]
+- A coluna **Classe de Tamanho** é utilizada para determinar as armas que você pode segurar, seguindo as regras descritas em [[Sistema_Base#Classes de Tamanho|Classes de Tamanho]]
 - A coluna **Habilidades** mostra uma habilidade que você pode escolher para ser a habilidade da sua arma, a descrição de cada habilidade pode ser encontrada no tópico Habilidades de arma; 
 - Os bônus podem ser adicionados nos seus respectivos modificadores quando você realiza um ataque ou defesa com a sua arma, sendo que **Manuseio** e **Peso** fazem referência à **Precisão** e **Impacto**, respectivamente.
 
@@ -415,7 +417,7 @@ As armaduras são equipamentos essenciais para guerreiros, elas recebem o recebe
 
 - A coluna **Classe de Tamanho** mostra o tamanho de uma armadura e a facilidade em levar ela
 - A coluna **Bônus de Esquiva** mostra o bônus que você deve adicionar ao seu modificador de esquiva
-- A coluna **Propriedades** mostra as propriedades especiais de cada armadura. Você pode ver a descrição destas propriedades no tópico [[Sistema Base#Habilidades de Equipamento| Habilidades de Equipamento]]
+- A coluna **Propriedades** mostra as propriedades especiais de cada armadura. Você pode ver a descrição destas propriedades no tópico [[Sistema_Base#Habilidades de Equipamento| Habilidades de Equipamento]]
 - A coluna **Bolsos** determina quantos itens você pode ter à mão.
 - A Coluna Resistências mostra as resistências da sua armadura. Você pode ver mais sobre o efeito de cada resistencia na seção Combate.
 
@@ -679,7 +681,7 @@ Uma vez que estas condições forem verdadeiras, podemos utilizar a seguinte reg
 
 ###### Ataque de oportunidade:
 
-Você executa um ataque simples, básico contra o inimigo. Este ataque possui a propriedade de [[Sistema Base#Reposicionamento]] e não causa dano.
+Você executa um ataque simples, básico contra o inimigo. Este ataque possui a propriedade de [[Sistema_Base#Reposicionamento]] e não causa dano.
 
 #### Reposicionamento :
 >Se o alvo de um ataque com a propriedade Reposicionamento falha em se defender, esquivar ou aparar o ataque, o atacante pode escolher mover o alvo em uma direção qualquer e o alvo é impedido de se mover até o início do seu próximo turno. A distância que você move o alvo deve ser menor ou igual ao alcance de sua arma. As maneiras de garantir que você não será reposicionado são tentar resistir ou agarrar o ataque.
@@ -728,7 +730,7 @@ for (let ref of pages) {
 # 5. Criando um personagem
 ## Passo a Passo
 
-Como já descrito na seção [[Sistema Base#Atributos|Atributos]], todos os personagens possuem atributos que servem para generalizar suas características, estes podem ser atributos primários ou secundários. Estas características, bem como outras comuns aos personagens dos jogadores como seus equipamentos e habilidades, são descritas na **Ficha de Personagem**. 
+Como já descrito na seção [[Sistema_Base#Atributos|Atributos]], todos os personagens possuem atributos que servem para generalizar suas características, estes podem ser atributos primários ou secundários. Estas características, bem como outras comuns aos personagens dos jogadores como seus equipamentos e habilidades, são descritas na **Ficha de Personagem**. 
 
 Os tópicos a seguir (raças, atributos, perícias e equipamentos) são destinados à montagem desta ficha, cada um tratando de um face do seu personagem e em conjunto formando o as características que o definem. Em resumo, para se criar uma ficha de personagem, é recomendado que o jogador siga as instruções em cada um dos tópicos à seguir.
 
@@ -793,16 +795,16 @@ Conforme você se aventura pelo mundo, o seu personagem ganha cada vez mais expe
 - Você pode trocar uma habilidade que você tenha por outra de seu interesse.
 - Você ganha 2 novas proficiências em equipamentos, perícias ou conhecimentos
 
-Além dos benefícios acima, você pode aumentar os seus atributos básicos de **uma** das seguintes maneiras, Sendo que nenhum atributo pode ser maior que o seu nível + 4 , como descrito no tópico [[Sistema Base#Limite de atributo|Limite de Atributo]]
+Além dos benefícios acima, você pode aumentar os seus atributos básicos de **uma** das seguintes maneiras, Sendo que nenhum atributo pode ser maior que o seu nível + 4 , como descrito no tópico [[Sistema_Base#Limite de atributo|Limite de Atributo]]
 
 - Aumentar um atributo em +2 e outro atributo em +1
 - Aumentar 3 atributos seus em +1.
 
 ### Subida Parcial de Nível
 
-Enquanto a subida de nível representa o triunfo do seu personagem sobre um grande feito, ainda existem pequenas melhorias que ele pode receber por suportar outros desafios, que não nescessáriamente são o suficiente para ele subir de nível. Para comportar isso, o seu personagem também pode receber bônus de +1 em atributos sem que suba de nível. Quando você ganha este bônus, você pode atribuí-lo a qualquer atributo que queira, contanto que ele esteja relacionado ao desafio superado e contanto que o novo valor do atributo não supere o valor do seu nível + 4 , como descrito no tópico [[Sistema Base#Limite de atributo|Limite de Atributo]]
+Enquanto a subida de nível representa o triunfo do seu personagem sobre um grande feito, ainda existem pequenas melhorias que ele pode receber por suportar outros desafios, que não nescessáriamente são o suficiente para ele subir de nível. Para comportar isso, o seu personagem também pode receber bônus de +1 em atributos sem que suba de nível. Quando você ganha este bônus, você pode atribuí-lo a qualquer atributo que queira, contanto que ele esteja relacionado ao desafio superado e contanto que o novo valor do atributo não supere o valor do seu nível + 4 , como descrito no tópico [[Sistema_Base#Limite de atributo|Limite de Atributo]]
 
-![[Sistema Base#Limite de atributo|Limite de Atributo]]
+![[Sistema_Base#Limite de atributo|Limite de Atributo]]
 
 ---
 ![[default_shield.png |left]]

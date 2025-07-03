@@ -90,7 +90,7 @@ dv.el("span", tags.join(" "))
 > ---
 > ###### Propriedades
 > **Alcance :** `$= dv.current().ranged? "Longo" : dv.current().size + dv.current().habilities.contains("Arma Longa")? "Corpo a Corpo +" : "Corpo a Corpo"`
-> **[[Sistema Base#Classes de Tamanho|Tamanho]] :** `=this.size`
+> **[[Sistema_Base#Classes de Tamanho|Tamanho]] :** `=this.size`
 > 
 > ```dataviewjs
 > let h = dv.current().habilities

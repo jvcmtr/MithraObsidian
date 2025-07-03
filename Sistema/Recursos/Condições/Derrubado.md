@@ -10,7 +10,7 @@ cssclass: paper
 <br/>
 
 ##### Derrubado
- Sua movimentação é reduzida e você não pode utilizar nenhuma **habilidade** ofensiva ou defensiva, somente [[Sistema/Sistema Base#Ataque Basico|ataques básicos]] e ações defensivas. 
+ Sua movimentação é reduzida e você não pode utilizar nenhuma **habilidade** ofensiva ou defensiva, somente [[Sistema_Base#Ataque Basico|ataques básicos]] e ações defensivas. 
 
 <br/>
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - "#module"
+---
+
 ### Runas: 
 Você passa a conhecer um número de runas igual ao seu modificador de percepção. cada runa é uma palavra que representa um aspecto. Com as devidas ferramentas, você pode escrever uma runa em sua forma aberta ou fechada em qualquer superfície e o efeito da runa perdura até que a forma da runa seja desfeita ou rompida. 
 

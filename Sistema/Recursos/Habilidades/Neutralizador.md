@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Neutralizador
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Enquanto você está [[Sistema/Sistema Base#Agarrão|Agarrando]] um inimigo, ele tem **desvantagem** em **testes** contra ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]] ou desarmado.
+Enquanto você está [[Sistema_Base#Agarrão|Agarrando]] um inimigo, ele tem **desvantagem** em **testes** contra ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]] ou desarmado.
 
 
 #

@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Força total
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você realiza um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] depois de se mover em direção a um inimigo, você ganha **vantagem** nas jogadas de **impacto** do seu ataque e inimigos acertados por ele ficam 
+Quando você realiza um [[Sistema_Base#Ataque Simples|Ataque Simples]] depois de se mover em direção a um inimigo, você ganha **vantagem** nas jogadas de **impacto** do seu ataque e inimigos acertados por ele ficam 
 [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubados]].
 
 

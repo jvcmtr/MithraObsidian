@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Arma Longa
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Esta arma conta como um tamanho maior para o propósito de se calcular o seu alcance. Além disso, você pode realizar um  [[Sistema/Sistema Base#Ataques de oportunidade|Ataque de oportunidade]] contra um inimigo que entra em seu alcance. Uma vez que faça isso, não pode fazê-lo novamente até o início do seu próximo turno.
+Esta arma conta como um tamanho maior para o propósito de se calcular o seu alcance. Além disso, você pode realizar um  [[Sistema_Base#Ataques de oportunidade|Ataque de oportunidade]] contra um inimigo que entra em seu alcance. Uma vez que faça isso, não pode fazê-lo novamente até o início do seu próximo turno.
 
 
 #

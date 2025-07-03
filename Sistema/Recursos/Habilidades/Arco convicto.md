@@ -32,7 +32,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Arco convicto
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você realiza um [[Sistema/Sistema Base#Ataque Conduzido|Ataque Conduzido]] corpo a corpo contra qualquer criatura dentro do alcance e recebe **desvantagem** em **acerto**, quando faz isso, você pode somar o seu modificador de **convicção** para calcular o **impacto** do seu ataque. além disso, o seu **dano** aumenta em **2**.
+Você realiza um [[Sistema_Base#Ataque Conduzido|Ataque Conduzido]] corpo a corpo contra qualquer criatura dentro do alcance e recebe **desvantagem** em **acerto**, quando faz isso, você pode somar o seu modificador de **convicção** para calcular o **impacto** do seu ataque. além disso, o seu **dano** aumenta em **2**.
 
 
 #

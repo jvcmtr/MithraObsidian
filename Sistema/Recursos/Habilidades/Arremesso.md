@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Arremesso
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você arremessa sua arma corpo a corpo, realizando um [[Sistema/Sistema Base#Ataque Conduzido|Ataque Conduzido]] à distância contra aqueles em uma direção escolhida.
+Você arremessa sua arma corpo a corpo, realizando um [[Sistema_Base#Ataque Conduzido|Ataque Conduzido]] à distância contra aqueles em uma direção escolhida.
 
 
 #

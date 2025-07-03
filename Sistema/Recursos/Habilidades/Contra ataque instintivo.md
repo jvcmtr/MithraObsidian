@@ -33,7 +33,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Contra ataque instintivo
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Quando você é bem sucedido em **esquivar** utilizando a sua habilidade previsão. você pode realizar um [[Sistema/Sistema Base#Ataque Simples|Ataque Simples]] contra o inimigo como se estivesse usando a sua habilidade [[Sistema/Recursos/Habilidades/Contra ataque|Contra ataque]]
+Quando você é bem sucedido em **esquivar** utilizando a sua habilidade previsão. você pode realizar um [[Sistema_Base#Ataque Simples|Ataque Simples]] contra o inimigo como se estivesse usando a sua habilidade [[Sistema/Recursos/Habilidades/Contra ataque|Contra ataque]]
 
 
 #

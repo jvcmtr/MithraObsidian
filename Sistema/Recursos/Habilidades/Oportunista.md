@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Oportunista
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Como uma reação, fora do seu turno, você pode realizar um [[Sistema/Sistema Base#Ataque Basico|Ataque Basico]] contra uma criatura imediatamente depois que ela for segurada, agarrada ou derrubada, ou se move dentro do seu alcance. Uma vez que use esta habilidade, você não pode usá-la novamente até o início do seu próximo turno. Você também não pode usar esta habilidade se estiver [[Sistema/Recursos/Condições/Desorientado#Desorientado|Desorientado]].
+Como uma reação, fora do seu turno, você pode realizar um [[Sistema_Base#Ataque Basico|Ataque Basico]] contra uma criatura imediatamente depois que ela for segurada, agarrada ou derrubada, ou se move dentro do seu alcance. Uma vez que use esta habilidade, você não pode usá-la novamente até o início do seu próximo turno. Você também não pode usar esta habilidade se estiver [[Sistema/Recursos/Condições/Desorientado#Desorientado|Desorientado]].
 
 
 #

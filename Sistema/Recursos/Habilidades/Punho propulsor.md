@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Punho propulsor
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Sempre que um de seus golpes com uma arma não letal é defendido ou acertado, você pode escolher fazer um **teste** para tentar [[Sistema/Sistema Base#Empurrão|empurrar]] ou [[Sistema/Recursos/Condições/Derrubado#Derrubado|derrubar]] o inimigo.
+Sempre que um de seus golpes com uma arma não letal é defendido ou acertado, você pode escolher fazer um **teste** para tentar [[Sistema_Base#Empurrão|empurrar]] ou [[Sistema/Recursos/Condições/Derrubado#Derrubado|derrubar]] o inimigo.
 
 
 #

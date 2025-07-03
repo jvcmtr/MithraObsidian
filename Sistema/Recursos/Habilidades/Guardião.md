@@ -31,7 +31,7 @@ if(dv.current().type != "Habilidade de Nível"){
 # Guardião
 *`=this.type` - `$=dv.current().passive? "Passiva" : dv.current().action`*
 
-Você pode escolher defender uma passagem. Enquanto você defende ela, você não pode ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]], [[Sistema/Sistema Base#Empurrão|Empurrado]] ou [[Sistema/Sistema Base#Reposicionamento|Reposicionado]] e não pode sofrer da condição [[Sistema/Recursos/Condições/Atarefado#Atarefado|Atarefado]]. Além disso, seus  [[Sistema/Sistema Base#Ataques de oportunidade|Ataques de oportunidade]] passam a dar **dano**.
+Você pode escolher defender uma passagem. Enquanto você defende ela, você não pode ser [[Sistema/Recursos/Condições/Derrubado#Derrubado|Derrubado]], [[Sistema_Base#Empurrão|Empurrado]] ou [[Sistema_Base#Reposicionamento|Reposicionado]] e não pode sofrer da condição [[Sistema/Recursos/Condições/Atarefado#Atarefado|Atarefado]]. Além disso, seus  [[Sistema_Base#Ataques de oportunidade|Ataques de oportunidade]] passam a dar **dano**.
 
 
 #
