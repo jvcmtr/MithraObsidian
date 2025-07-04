@@ -41,7 +41,7 @@ tags:
 > || **Informações** |
 > |**Nome** | `INPUT[text:name]` |
 > |**Nível** | `INPUT[number:lvl]` |
-> |**Raça** | `INPUT[suggester(optionQuery(#race), optionQuery("Sistema/Recursos/Raças"), useLinks(true)):race]`
+> |**Raça** | `INPUT[suggester(optionQuery("Sistema/Recursos/Raças"), useLinks(true)):race]`
 > |**Origem**|`INPUT[text:origin]` |
 
 
@@ -93,9 +93,9 @@ if(n > max){
 
 | | **Itens Equipados**|
 | - | - |
-|**Armadura** | `INPUT[suggester(optionQuery(#armour), optionQuery("Sistema/Recursos/Armaduras"), useLinks(true)):armour]`|
-|**Mão Direita** | `INPUT[suggester(optionQuery(#weapon), optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon1]`|
-|**Mão Esquerda** | `INPUT[suggester(optionQuery(#weapon), optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon2]`|
+|**Armadura** | `INPUT[suggester( optionQuery("Sistema/Recursos/Armaduras"), useLinks(true)):armour]`|
+|**Mão Direita** | `INPUT[suggester( optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon1]`|
+|**Mão Esquerda** | `INPUT[suggester( optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon2]`|
 
 # Combate
 
@@ -239,7 +239,7 @@ const colunas = [
 
 
 # Habilidades
-**Adicionar Habilidade :** `INPUT[suggester(optionQuery(#hability), optionQuery("Sistema/Recursos/Habilidades"), useLinks(true)):hab_selected]` `BUTTON[add_hab]`
+**Adicionar Habilidade :** `INPUT[suggester( optionQuery("Sistema/Recursos/Habilidades"), useLinks(true)):hab_selected]` `BUTTON[add_hab]`
 
 
 ```meta-bind-button
