@@ -24,8 +24,8 @@ weapon2:
 equipments: 
 items: 
 gold: 0
-hab_selected: 
-habilities: 
+hab_selected: "[[Sistema/Recursos/Habilidades/Um com o animal.md|Um com o animal]]"
+habilities: []
 tags:
   - "#player_char"
 ---
@@ -251,19 +251,19 @@ actions:
   - type: updateMetadata
     bindTarget: habilities
     evaluate: true
-    value: "[...( getMetadata('habilities') || []) , getMetadata('hab_selected') ]"
+    value: "getMetadata('hab_selected')? [...( getMetadata('habilities') || []) , getMetadata('hab_selected') ] : getMetadata('habilities')"
     after: app.workspace.activeLeaf.view.reload()
 ```
 
 ``` dataviewjs
 let prop = "habilities"
-let cur = dv.current
+let cur = dv.current()
 let dt = [
-	...(cur.habilities ||[]), 
+	...(cur.habilities || []), 
 	...(cur.race? dv.page(cur.race).habilities_ref : [])
 ]
 
-
+console.log(dt)
 if(!dt){ dt = [] }
 
 function getRemoveBtn(idx){

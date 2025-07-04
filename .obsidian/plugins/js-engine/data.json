@@ -1,0 +1,5 @@
+{
+  "startupScripts": [
+    "mestre/scripts/functions.js"
+  ]
+}

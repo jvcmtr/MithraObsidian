@@ -114,5 +114,3 @@ function getDataHolder(requester = null,  doc = document){
     
     return div;
 }
-
-
