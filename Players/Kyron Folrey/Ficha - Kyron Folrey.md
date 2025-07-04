@@ -1,35 +1,34 @@
 ---
-name: Timotio Junior
-race: "[[Sistema/Recursos/Raças/Hulleniano.md|Hulleniano]]"
-origin: "Ancião "
-str: 5
-agi: 5
-tou: 9
+name: Kyron Folrey
+race: 
+origin:
+age:
+image: 
+str: 1
+agi: 1
+tou: 1
 int: 1
-per: 9
-con: 9
-lvl: 5
-hp: 47
-mana: 999
-mana_max: 999
+per: 1
+con: 1
+lvl: 1
+hp: 3
+mana: 0
+mana_max: 1
 runes: 
 spells: 
-expertise:
-  - Barganha
-knolege:
-  - "[[Wiki/Eras/1. Era dos Demonios.md|1. Era dos Demonios]]"
+expertise: 
+knolege: 
 equipment_prof: 
-armour: "[[Sistema/Recursos/Armaduras/Veste de Seda.md|Veste de Seda]]"
-weapon1: "[[Sistema/Recursos/Armas/Tocha.md|Tocha]]"
-weapon2: "[[Sistema/Recursos/Armas/Soco Inglês.md|Soco Inglês]]"
+armour: 
+weapon1: 
+weapon2: 
 equipments: 
 items: 
 gold: 0
 hab_selected: "[[Sistema/Recursos/Habilidades/Um com o animal.md|Um com o animal]]"
-habilities: 
+habilities: []
 tags:
   - "#player_char"
-image: Imagens/Portraits/Timot.jpg
 ---
 
 # `$= dv.current().name` 
@@ -42,6 +41,7 @@ image: Imagens/Portraits/Timot.jpg
 > | - | - |
 > || **Informações** |
 > |**Nome** | `INPUT[text:name]` |
+> |**Idade**|`INPUT[number:age]` |
 > |**Nível** | `INPUT[number:lvl]` |
 > |**Raça** | `INPUT[suggester(optionQuery("Sistema/Recursos/Raças"), useLinks(true)):race]`
 > |**Origem**|`INPUT[text:origin]` |
@@ -57,8 +57,6 @@ image: Imagens/Portraits/Timot.jpg
 |**Percepção** | `INPUT[number:per]`|
 |**Convicção** | `INPUT[number:con]`| 
 
-
-
 ```dataviewjs
 let cur = dv.current()
 let n = [   (cur.str ||0) , (cur.agi ||0) ,
@@ -71,12 +69,10 @@ if(n.some(i=> i > max)){
 }
 ```
 
-
-
 | | |
 | - | - |
 || **Magia** |
-|**Mana** | `INPUT[number(class(mana)):mana]` / `INPUT[number(class(my-column-small)):mana_max]`| 
+|**Mana** | `INPUT[number(class(mana)):str]` / `INPUT[number(class(my-column-small)):mana_max]`| 
 |**Runas Conhecidas** | `INPUT[inlineList:runes]`| 
 
 | | |
@@ -97,12 +93,11 @@ if(n > max){
 }
 ```
 
-| | |
+| | **Itens Equipados**|
 | - | - |
-|| **Itens Equipados** |
-|**Armadura** | `INPUT[suggester(optionQuery(#armour), optionQuery("Sistema/Recursos/Armaduras"), useLinks(true)):armour]`|
-|**Mão Direita** | `INPUT[suggester(optionQuery(#weapon), optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon1]`|
-|**Mão Esquerda** | `INPUT[suggester(optionQuery(#weapon), optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon2]`|
+|**Armadura** | `INPUT[suggester( optionQuery("Sistema/Recursos/Armaduras"), useLinks(true)):armour]`|
+|**Mão Direita** | `INPUT[suggester( optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon1]`|
+|**Mão Esquerda** | `INPUT[suggester( optionQuery("Sistema/Recursos/armas"), useLinks(true)):weapon2]`|
 
 # Combate
 
@@ -150,7 +145,7 @@ w = w.filter((e) => can_defend(e))
 
 if(w.length > 1){
 	let defender = w[0] > w[1]? w[0] : w[1]
-	rows.push(["**Defesa**", (defender.defense_mod + cur.str)+ " _ _ _ (" + defender.name + ")"])
+	rows.push(["**Defesa**", (defender.defense_mod + cur.str)+ " _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ (" + defender.name + ")"])
 }
 
 // PARY _________________
@@ -161,7 +156,7 @@ w = w.filter(can_parry)
 
 if(w.length > 0){
 	let defender = w[0] > w[1]? w[0] : w[1]
-	rows.push(["**Aparar**", (defender.maneuver_mod + cur.agi) + " _ _ _ (" + w1.name + ")"])
+	rows.push(["**Aparar**", (defender.maneuver_mod + cur.agi) + " _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ (" + w1.name + ")"])
 }
 
 // GRAB _________________
@@ -173,7 +168,7 @@ if(total < 4){
 }
 
 // PRINT__________________________
-rows.push(["**Resistir**", "+"+cur.con+" _ _ _ *(d20)*" ])
+rows.push(["**Resistir**", "+"+cur.con+" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ *(d20)*" ])
 dv.table(["", "**Defesas**"], rows)
 
 ```
@@ -200,7 +195,7 @@ for (let ref of hab ) {
 ```
 
 # Inventário
-**Moedas de Ouro** `INPUT[number:gold]`
+**Moedas de Ouro** `INPUT[number:gold.current]`
 ```meta-bind-button
 label: "+ Adicionar item" 
 id: add_inventario_fim
@@ -258,19 +253,19 @@ actions:
   - type: updateMetadata
     bindTarget: habilities
     evaluate: true
-    value: "[...( getMetadata('habilities')? getMetadata('habilities') : []) , getMetadata('hab_selected') ]"
+    value: "getMetadata('hab_selected')? [...( getMetadata('habilities') || []) , getMetadata('hab_selected') ] : getMetadata('habilities')"
     after: app.workspace.activeLeaf.view.reload()
 ```
 
 ``` dataviewjs
 let prop = "habilities"
-let cur = dv.current
+let cur = dv.current()
 let dt = [
-	...(cur.habilities ||[]), 
+	...(cur.habilities || []), 
 	...(cur.race? dv.page(cur.race).habilities_ref : [])
 ]
 
-
+console.log(dt)
 if(!dt){ dt = [] }
 
 function getRemoveBtn(idx){

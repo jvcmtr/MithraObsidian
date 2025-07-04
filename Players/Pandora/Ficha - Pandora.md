@@ -1,7 +1,8 @@
 ---
-name: 
+name: Pannadicaltea Dorafelt
 race: 
 origin: 
+age:
 image: 
 str: 1
 agi: 1
@@ -40,6 +41,7 @@ tags:
 > | - | - |
 > || **Informações** |
 > |**Nome** | `INPUT[text:name]` |
+> |**Idade**|`INPUT[number:age]` |
 > |**Nível** | `INPUT[number:lvl]` |
 > |**Raça** | `INPUT[suggester(optionQuery("Sistema/Recursos/Raças"), useLinks(true)):race]`
 > |**Origem**|`INPUT[text:origin]` |

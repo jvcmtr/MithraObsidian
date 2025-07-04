@@ -1,7 +1,7 @@
 {
   "attachmentFolderPath": "Imagens",
   "defaultViewMode": "source",
-  "livePreview": true,
+  "livePreview": false,
   "propertiesInDocument": "visible",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,

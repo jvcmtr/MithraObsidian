@@ -259,7 +259,7 @@ Para facilitar a contagem de itens consumíveis, à critério da mesa, o jogador
 ---
 > [!grid]
 > ![[heavy2.png]]
-> ![[default_shield.png]]
+> ![[shield.png]]
 > ![[light.png]]
 ---
 # 3. Equipamentos
@@ -807,9 +807,9 @@ Enquanto a subida de nível representa o triunfo do seu personagem sobre um gran
 ![[Sistema_Base#Limite de atributo|Limite de Atributo]]
 
 ---
-![[default_shield.png |left]]
-![[default_shield.png |right]]
-![[default_shield.png |center]]
+![[shield.png|left]]
+![[shield.png|right]]
+![[shield.png|center]]
 
 
 ---

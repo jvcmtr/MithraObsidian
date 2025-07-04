@@ -2,27 +2,22 @@
 tags:
   - "#weapon"
   - "#Arsenal_Avançado"
-name: "Manoplas pesadas"
+name: Manoplas pesadas
 source: "[[Sistema/Arsenal_Avançado#Armas|Arsenal_Avançado]]"
-
 size: "-"
 damage: 0
-damage_type: "Impacto"
+damage_type: Impacto
 maneuver_mod: 0
 weight_mod: 0
 defense_mod: 1
-
-shield: TRUE
-ranged: FALSE
+shield: true
+ranged: false
 rarity: Advanced
-
-habilities: "Disfarçada, Empunhadura confiável, Arma Curva"
-habilities_ref: 
+habilities: Disfarçada, Empunhadura confiável, Arma Curva
+habilities_ref:
   - "[[Recursos/Habilidades/Disfarçada#Disfarçada|Disfarçada]]"
   - "[[Recursos/Habilidades/Empunhadura confiável#Empunhadura confiável|Empunhadura confiável]]"
   - "[[Recursos/Habilidades/Arma Curva#Arma Curva|Arma Curva]]"
-
-
 cssclasses:
   - paper
 ---
