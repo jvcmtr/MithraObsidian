@@ -1,3 +1,6 @@
+# Mapa da região 
+> **[[Wiki/O Mundo/Soulthelm/Ponta Toragsef/Ponta Tormentoza|Veja o mapa da região aqui]]**
+
 # Criação de personagem
 Acesse um dos links a baixo e complete a ficha do seu personagem:
 > - **[[Ficha - Androxus Martell| Androxus Martell]]**
