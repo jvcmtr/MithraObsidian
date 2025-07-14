@@ -2,15 +2,33 @@
   "mapMarkers": [],
   "defaultMarker": {
     "type": "default",
-    "iconName": "map-marker",
-    "color": "#dddddd",
+    "iconName": "circle-notch",
+    "color": "#992e2e",
     "transform": {
       "size": 6,
       "x": 0,
       "y": -2
-    }
+    },
+    "isImage": false
   },
-  "markerIcons": [],
+  "markerIcons": [
+    {
+      "type": "Circle",
+      "iconName": "dot-circle",
+      "color": "#000000",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
   "color": "#dddddd",
   "lat": 39.983334,
   "long": -82.98333,
