@@ -2,7 +2,7 @@
 name: Talis Okeanos
 race: 
 origin: 
-age:
+age: 
 image: Imagens/Portraits/IMG-Pierre.jpg
 str: 1
 agi: 1

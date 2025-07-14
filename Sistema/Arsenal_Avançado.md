@@ -45,7 +45,7 @@ const tag_filter = ["#Arsenal_Avançado", "#weapon"];
 
 const colunas = [
 	["Classe de Tamanho", (p) => p["size"] ],
-	["Bonus de dano", (p) => p["damage_mod"] ],
+	["Bonus de dano", (p) => p["damage"] ],
 	["Nome", (p) => p.file.link ],
 	["Tipo de dano", (p)=> p["damage_type"]],
 	["Bonus de Manuseio", (p)=> p["maneuver_mod"]],
@@ -75,7 +75,7 @@ const tag_filter = ["#Arsenal_Avançado", "#weapon"];
 
 const colunas = [
 	["Classe de Tamanho", (p) => p["size"] ],
-	["Bonus de dano", (p) => p["damage_mod"] ],
+	["Bonus de dano", (p) => p["damage"] ],
 	["Nome", (p) => p.file.link ],
 	["Tipo de dano", (p)=> p["damage_type"]],
 	["Bonus de Manuseio", (p)=> p["maneuver_mod"]],
@@ -105,7 +105,7 @@ const tag_filter = ["#Arsenal_Avançado", "#weapon"];
 
 const colunas = [
 	["Classe de Tamanho", (p) => p["size"] ],
-	["Bonus de dano", (p) => p["damage_mod"] ],
+	["Bonus de dano", (p) => p["damage"] ],
 	["Nome", (p) => p.file.link ],
 	["Tipo de dano", (p)=> p["damage_type"]],
 	["Bonus de Manuseio", (p)=> p["maneuver_mod"]],
