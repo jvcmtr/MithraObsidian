@@ -5,6 +5,7 @@ aliases:
   - Vila da chuva
 tags:
   - #location
+location: [1500, 2250]
 ---
 # Origem
 Vila Vilsef, chamada por alguns de Vilas da chuva, são um conjunto de vilarejos formados ao redor de pequenas fazendas nos campos cultiváveis ao sul de [[Ponta Tormentoza]]. 

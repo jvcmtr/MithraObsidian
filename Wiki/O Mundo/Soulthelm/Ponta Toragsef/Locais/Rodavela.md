@@ -1,6 +1,7 @@
 ---
 tags:
   - #location
+location: [2100, 2170]
 ---
 Rodavela é a cidade dos moinhos e dos tecidos. As terras pobres e chuvosas de Rodavela deixam poucas opções para aqueles que desejam sobreviver da terra, contudo, [[Vela]], [[Fílaros]] e [[Sílaros]] são plantas selvagens comumente encontradas na região e são muto usadas na produção têxtil.
 

@@ -1,3 +1,11 @@
+---
+tags:
+  - #location 
+location: [3750, 3200]
+
+---
+
+
 Antiga cidade fundada na costa leste de [[Toragsef]] durante a [[2.1 A Conquista|Conquista]]. 
 
 Inundada e em ruinas desde o [[Desaparecimento dos Askaei]] depois da [[A Catastrofe de Portoalvo]]
@@ -5,7 +13,7 @@ Inundada e em ruinas desde o [[Desaparecimento dos Askaei]] depois da [[A Catast
 ## Fundação
 A Cidade de Portoalvo foi fundada no final da [[2.1 A Conquista|Conquista]] no nome da [[Casa Rimien]] como retribuição à conquista da [[Mata de Riendei|Floresta Dotan]] (renomeada [[Mata de Riendei]]). Esta cruzada foi o primeiro passo na libertação do interior do continente, atravessando o perigoso pântano e chegando até os [[Campos de Bonavé]]. 
 
-Os locais das duas grandes vitórias da [[Casa Rimien]], [[Forte Fundo]] e [[Portoalvo]] foram dados à casa em nome de seu feito.
+Os locais das duas grandes vitórias da [[Casa Rimien]], [[Fortefundo]] e [[Portoalvo]] foram dados à casa em nome de seu feito.
 
 ## Durante o Império
 Portoalvo foi uma cidade grande e movimentada durante [[2. Era de Mithra|O Império]], Seu extenso porto, que rivalizava com [[Tor|Forte Pycesmir]], foi construído em pedras brancas vindas de [[O Vale|Golveil]], assim como a maior parte das construções da cidade.
@@ -17,6 +25,6 @@ Alguns dos sobreviventes da [[A Catastrofe de Portoalvo| Catastrofe de porto alv
 
 Alguns outros tentaram resgatar as perdidas riquezas da [[Casa Rimien]] e dos artesãos de Portoalvo, mas também sem sucesso. A maior parte dos itens da cidade foram levados pela correnteza, enquanto os poucos que foram encontrados estão quebrados, enferrujados ou cheios de cracas e algas. 
 
-Um dos pouquíssimos itens que conseguiu ser resgatado foi uma estátua em pedra branca do fundador de Portoalvo, que venceu os [[Urkatan|Demônios]] durante a [[2.1 A Conquista|Conquista]]. A estátua foi resgatada por soldados de [[Forte Fundo]] e exposta na praça central da cidade, até que o barão ordenasse a retirada dela. 
+Um dos pouquíssimos itens que conseguiu ser resgatado foi uma estátua em pedra branca do fundador de Portoalvo, que venceu os [[Urkatan|Demônios]] durante a [[2.1 A Conquista|Conquista]]. A estátua foi resgatada por soldados de [[Fortefundo]] e exposta na praça central da cidade, até que o barão ordenasse a retirada dela. 
 
 Hoje, ninguém sabe onde está esta estátua, mas muitos acreditam que os soldados não à destruíram, mas à esconderam em algum lugar no pântano
