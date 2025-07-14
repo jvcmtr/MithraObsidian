@@ -1,4 +1,3 @@
-# Oi meu benzinho te amo te amo
 # Criação de personagem
 Acesse um dos links a baixo e complete a ficha do seu personagem:
 > - **[[Ficha - Androxus Martell| Androxus Martell]]**
