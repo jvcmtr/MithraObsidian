@@ -1,32 +1,45 @@
 ---
 name: Talis Okeanos
-race: 
-origin: 
-age: 
+race: "[[Sistema/Recursos/Raças/Hulleniano.md|Hulleniano]]"
+origin: Nobre de Pata
+age: 26
 image: Imagens/Portraits/IMG-Pierre.jpg
-str: 1
-agi: 1
-tou: 1
-int: 1
+str: 0
+agi: 3
+tou: 2
+int: 5
 per: 1
 con: 1
-lvl: 1
-hp: 3
+lvl: 2
+hp: 2
 mana: 0
 mana_max: 1
 runes: 
 spells: 
-expertise: 
-knolege: 
-equipment_prof: 
-armour: 
+expertise:
+  - Intelecto
+  - Avaliação
+  - Navegar
+  - Lógica
+  - Furtividade
+  - Memória
+knolege:
+  - "[[Wiki/Eras/2.3 Alto Império.md|2.3 Alto Império]]"
+  - "[[Wiki/Eras/2.2. Primeiro Imperio.md|2.2. Primeiro Imperio]]"
+equipment_prof:
+  - "Lâminas "
+armour: "[[Sistema/Recursos/Armaduras/Veste de Seda.md|Veste de Seda]]"
 weapon1: 
 weapon2: 
 equipments: 
 items: 
 gold: 0
-hab_selected: "[[Sistema/Recursos/Habilidades/Um com o animal.md|Um com o animal]]"
-habilities: []
+hab_selected: "[[Sistema/Recursos/Habilidades/Engenheiro.md|Engenheiro]]"
+habilities:
+  - "[[Sistema/Recursos/Habilidades/Círculos mágicos de primeiro grau.md|Círculos mágicos de primeiro grau]]"
+  - "[[Sistema/Recursos/Habilidades/Sem Escapar.md|Sem Escapar]]"
+  - "[[Sistema/Recursos/Habilidades/Movimentação evasiva.md|Movimentação evasiva]]"
+  - "[[Sistema/Recursos/Habilidades/Engenheiro.md|Engenheiro]]"
 tags:
   - "#player_char"
 ---
