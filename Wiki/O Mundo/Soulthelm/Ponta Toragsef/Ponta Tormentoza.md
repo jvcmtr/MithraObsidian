@@ -1,4 +1,7 @@
- 
+---
+aliases: 
+  - Ponta Sefragtã
+---
 # Mapa
 
 
@@ -15,7 +18,7 @@ maxZoom: 0
 defaultZoom: -2.65
 zoomDelta: 0.5
 unit: ""
-markerFolder: Campanha/Locais/map_locations/Tor/
+markerFolder: Wiki/O Mundo/Soulthelm/Ponta Toragsef/Locais
 #noUI: true
 scale: 1
 darkMode: false

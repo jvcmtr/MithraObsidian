@@ -1,0 +1,1 @@
+A Primeira coroação marca o fim da [[2.1 A Conquista|Conquista]] e a legitimação do [[2.3 Alto Império|Império Mitriano]].

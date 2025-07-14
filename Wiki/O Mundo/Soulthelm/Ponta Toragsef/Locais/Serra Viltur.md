@@ -1,0 +1,1 @@
+Conjunto de morros e desfiladeiros que separa as terras altas de [[Ponta Tormentoza]].
