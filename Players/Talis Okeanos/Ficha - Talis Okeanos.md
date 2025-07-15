@@ -11,7 +11,7 @@ int: 5
 per: 1
 con: 1
 lvl: 2
-hp: 2
+hp: 6
 mana: 0
 mana_max: 1
 runes: 
@@ -23,6 +23,7 @@ expertise:
   - Lógica
   - Furtividade
   - Memória
+  - Atletismo
 knolege:
   - "[[Wiki/Eras/2.3 Alto Império.md|2.3 Alto Império]]"
   - "[[Wiki/Eras/2.2. Primeiro Imperio.md|2.2. Primeiro Imperio]]"
