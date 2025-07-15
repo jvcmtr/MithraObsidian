@@ -1,8 +1,8 @@
 ---
 name: Kyron Folrey
 race: 
-origin:
-age:
+origin: 
+age: 
 image: 
 str: 1
 agi: 1
@@ -26,9 +26,14 @@ equipments:
 items: 
 gold: 0
 hab_selected: "[[Sistema/Recursos/Habilidades/Um com o animal.md|Um com o animal]]"
-habilities: []
+habilities:
+  - path: Sistema/Recursos/Habilidades/Um com o animal.md
+    display: Um com o animal
+    embed: false
+    type: file
 tags:
   - "#player_char"
+
 ---
 
 # `$= dv.current().name` 
